@@ -8,6 +8,7 @@ public class RandomStringChooser
   private ArrayList<String> coolList;
   public RandomStringChooser(String[] coolArray) {
     wordArray = new String[coolArray.length];
+    // forgot to initialize coolList
     coolList = new ArrayList<String>();
     for(int i = 0; i < coolArray.length; i++) {
       wordArray[i] = coolArray[i];
